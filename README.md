@@ -91,6 +91,12 @@ Quote-Frontend/quote.html
 
 OR deploy using Coolify static hosting.
 
+If using coolify static hosting, make sure to change the name of the file from index.html to quote.html in custom Nginx Configuration. Also, you can replace any front-end file name with the configuration as below by replacing just the HTML file name with your own HTML file name.
+```
+index quote.html index.htm;
+try_files $uri $uri.html $uri/quote.html $uri/index.htm $uri/ =404;
+```
+
 ---
 
 # 🔧 Important Notes
@@ -122,5 +128,3 @@ fetch("http://hajqg60bg4dped2o3qazh6kl.178.105.39.91.sslip.io/quote")
 # 📌 Author
 
 Diksha0897
-
-```
