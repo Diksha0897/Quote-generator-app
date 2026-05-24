@@ -5,7 +5,7 @@ const button = document.getElementById("new-quote-btn");
 async function getQuote() {
   try {
     const response = await fetch(
-      "http://hajqg60bg4dped2o3qazh6kl.178.105.39.91.sslip.io",
+      "http://hajqg60bg4dped2o3qazh6kl.178.105.39.91.sslip.io/quote",
     );
     const data = await response.json();
 
