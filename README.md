@@ -125,6 +125,13 @@ fetch("http://hajqg60bg4dped2o3qazh6kl.178.105.39.91.sslip.io/quote")
 
 ---
 
+## 🧰 Tech Stack
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Deployment: Coolify
+- API: REST
+
 # 📌 Author
 
 Diksha0897
